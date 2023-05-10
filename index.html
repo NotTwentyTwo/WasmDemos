@@ -3,7 +3,11 @@
 	<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 	<meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
 	<meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
+	<script src="https://cdn.jsdelivr.net/npm/coi-serviceworker"></script>
 	<body>
 		<h1>Hello World</h1>
 	</body>
+	<script type="text/javascript">
+		coiServiceWorker.register();
+	</script>
 </html>
